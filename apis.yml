@@ -1,7 +1,29 @@
 aid: akashx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akashx.png
 name: AkashX
-description: AkashX is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AkashX is a Techstars-backed data and AI company building an Online Cognitive
+  Processing (OLCP) Database and a declarative "Cognitive SQL" engine for reasoning
+  over structured and unstructured data at scale. Its platform runs small language
+  models in-database to deliver low-latency, token-efficient, deterministic inference
+  as an alternative to probabilistic RAG, with semantic operations such as Cognitive
+  Join, Cognitive Classify, and Cognitive Topic Discovery, plus Ontology Views that
+  turn files into queryable tables for agents. It integrates with lakehouse
+  environments like Databricks and targets financial intelligence, sales analysis,
+  healthcare and clinical-trial, and talent-screening use cases. Added to the API
+  Evangelist network as a Techstars portfolio lead and enriched by the pipeline; no
+  public API, SDK, or developer documentation is published yet.
 url: https://raw.githubusercontent.com/api-evangelist/akashx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +36,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Data
+- Database
+- Analytics
+- SQL
+- Lakehouse
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://akashx.ai/
+- type: Blog
+  url: https://akashx.ai/blogs
+- type: About
+  url: https://akashx.ai/about
+- type: LinkedIn
+  url: https://www.linkedin.com/company/akashx-inc/
+- type: Support
+  url: mailto:contact@akashx.ai
+- type: DomainSecurity
+  url: security/akashx-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
