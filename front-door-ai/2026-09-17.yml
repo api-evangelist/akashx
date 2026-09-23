@@ -1,0 +1,32 @@
+# Front Door AI Index — akashx — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: akashx
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: akashx.ai
+  final_host: akashx.ai
+  ownership: own
+  owner: akashx
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 13
+  host_score: 13
+  density: 43.92
+  words: 296
+  tiers:
+    agentic: 6
+    core: 7
+    model: 0
+  ambiguous: 7
+  top_terms:
+    AI: 6
+    cognitive: 5
+    RAG: 3
+    inference: 2
+    LLMs: 1
+    agent: 1
+    smart: 1
+    vector database: 1
